@@ -1,0 +1,258 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: "Open sans", sans-serif;
+}
+body{
+   font-family: sans-serif; 
+   font-size: 17px;
+   background: #f4f4f4;
+  
+}
+
+.tlo{
+    background-image: url("home.jpg");
+    color: #ffffff;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10em 0;
+    width: 100%;
+    height: 100hv;
+    position: relative;
+
+   
+}
+.parallax--bg{
+    transition: initial;
+}
+
+nav{
+    color: rgb(255, 255, 255);
+    float: right;
+    width: 100%;
+    background-color: none;
+    position: fixed; 
+    z-index: 999; 
+}
+
+ul{
+    width: 100%;
+    padding: 0px;
+    margin: 2 auto;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    height: 20px;
+}
+
+.navigation a{
+    padding: 15px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;   
+}
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color:  mediumaquamarine;
+}
+
+  .toggle{
+      width: 100%;
+      padding: 10px 20px;
+      background: rgb(34, 187, 154);
+      text-align: right;
+      box-sizing: border-box;
+      color: white;
+      font-size: 20px;
+      display: none;   
+}  
+
+@media only screen and (max-width:768px){
+    .toggle{
+        display: block;
+        height: 40px;
+        position: fixed;
+        z-index: 999;
+    }
+
+    .tlo{
+        background-image: url("home.jpg");
+        color: #ffffff;
+        background-size:cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 3  em 10;
+        width: 100%;
+    }
+
+    .menu{
+        position: fixed;
+    }
+
+    nav
+    {
+    margin-top: 38px;
+    }
+
+    ul{
+        width: 100%;
+        display: none;
+        background-color: rgb(34, 187, 154);
+    }
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    a{
+    border:none;
+    text-decoration: none;
+    color: white;
+
+   }
+      .active{
+          display: block;  
+      }
+}
+
+h1{
+    
+    text-align: center;
+    line-height: 400px;
+    color: #fff;
+    font-size: 40px;
+}
+
+h3{
+    text-align: center;
+    color: rgba(34, 187, 154, 0.685);
+    font-size: 30px;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.home-background{
+    text-align: center;
+}
+.parallax--bg .home-background .check{
+    text-align: center;
+    
+    
+}
+.textAbout{
+    margin-left: 150px;
+    margin-right:150px;
+    line-height: 30px;
+    text-align: justify;
+    
+}
+.contactFont{
+    font-size: 15px;
+    margin-left: 150px;
+    margin-right:50px;
+    line-height: 30px;
+    text-align: left;
+  
+}
+
+#about{
+    height:100vh;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    display: table;  
+}
+#works{
+      
+}
+
+#contact{
+    height:100vh;
+    width: 100%;
+    background-color: white;
+    display: table;  
+}
+
+.text
+{
+    float: left;
+    width: 50%;
+}
+
+.form{
+    
+    float: right;
+    width: 50%;
+}
+form{
+   
+}
+
+input{
+    
+    width: 60%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, .0);
+    border: 2px solid rgba(34, 187, 154, 0.685);
+    color: rgba(34, 187, 154, 0.685);
+}
+
+textarea{
+    width:60%;
+    margin-top: 5px;
+    margin-left: 20px;
+    background: rgba(0, 0, 0, .0);
+    border: none;
+    border: 2px solid rgba(34, 187, 154, 0.685);
+    color: rgba(34, 187, 154, 0.685);
+}
+
+.mess{
+    
+}
+#mess{
+    margin-bottom: 30px;  
+}
+
+.form{
+    
+    color: rgba(34, 187, 154, 0.685);
+    font-size: 15px;
+  
+    margin-bottom: 30px;
+}
+.wart{
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+button{
+    
+    width: 100px;
+    padding: 7px;
+margin-left: 20px;
+    background-color:  rgba(34, 187, 154, 0.685);
+    color: white;
+    font-size: 15;
+    border: none;
+  
+}
+button:hover{
+    background-color: white;
+    color: rgba(34, 187, 154, 0.685);
+    border:1px solid rgba(34, 187, 154, 0.685);
+    
+
+
+
+}
