@@ -82,11 +82,12 @@ li a:hover{
     .tlo{
         background-image: url("home.jpg");
         color: #ffffff;
+
         background-size:cover;
         background-position: center;
         background-attachment: fixed;
         padding: 3  em 10;
-        width: 100%;
+        
     }
 
     .menu{
