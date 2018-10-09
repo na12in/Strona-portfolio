@@ -49,7 +49,7 @@ ul li{
 }
 
 .navigation a{
-    padding: 15px;
+    padding: 10px;
     border: 1px solid white;
     text-decoration: none;
     color: white;   
@@ -62,7 +62,8 @@ li a:hover{
 
   .toggle{
       width: 100%;
-      padding: 10px 20px;
+      padding-right: 35px;
+      padding-top: 10px;
       background: rgb(34, 187, 154);
       text-align: right;
       box-sizing: border-box;
@@ -95,28 +96,34 @@ li a:hover{
 
     .menu{
         position: fixed;
+        
     }
 
     nav
     {
     margin-top: 38px;
+    
     }
 
     ul{
         width: 100%;
+
         display: none;
         background-color: rgb(34, 187, 154);
     }
     ul li{
+        
         display: block;
         text-align: center;
     }
-    a{
+    .navigation a{
     border:none;
     text-decoration: none;
     color: white;
+    
 
    }
+   
       .active{
           display: block;  
       }
@@ -125,10 +132,11 @@ li a:hover{
 h1{
     
     text-align: center;
-    line-height: 400px;
+    line-height: 200px;
     color: #fff;
     font-size: 40px;
 }
+
 
 h3{
     text-align: center;
@@ -142,12 +150,34 @@ h3{
 
 .home-background{
     text-align: center;
+    
 }
-.parallax--bg .home-background .check{
-    text-align: center;
+ .check{
+     padding: 10px;
+    color: rgb(29, 165, 135);
+    border: 1px solid rgb(29, 165, 135);
+
+    line-height: 90px;
+    margin-top:  70%;
+    font-weight: bold;
+    font-size: 22;
     
     
 }
+
+.check:hover
+{
+    padding: 10px;
+   color: white;
+   border: 1px solid rgb(34, 187, 154);
+   line-height: 90px;
+   margin-top:  70%;
+   font-weight: bold;
+   font-size: 22;
+   background-color: rgb(34, 187, 154);
+   }
+
+
 .textAbout{
     margin-left: 10%;
     margin-right:10%;
