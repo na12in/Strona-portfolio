@@ -1,9 +1,8 @@
-*{
+
+body{
     margin: 0; 
     padding: 0; 
     font-family: "Open sans", sans-serif;
-}
-body{
    font-family: sans-serif; 
    font-size: 17px;
    background: #f4f4f4;
@@ -150,6 +149,26 @@ li a:hover{
         justify-content: center;
         align-items: center;
     }
+
+
+    input{
+        min-width: 80%;
+    
+        height: 30px;
+       
+        
+    
+    }
+    
+    textarea{
+        min-width:80%;
+        margin-top: 5px;
+        
+       
+    }
+
+    
+    
 }
 
 h1{
@@ -211,7 +230,6 @@ h3{
 }
 .contactFont{
     font-size: 15px;
-   
     line-height: 30px;
     text-align: left;
   
@@ -237,17 +255,19 @@ h3{
 
 .container{
     display: flex;
+    
 }
 .text
 {
-    
+    margin-bottom: 50px;
     flex: 50%;
 }
 
 .form{
     
-    
+    align-content: center;
    flex: 50%;
+  
 }
 form{
    
@@ -258,7 +278,8 @@ input{
     width: 60%;
     height: 30px;
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 10px;
     background: rgba(0, 0, 0, .0);
     border: 2px solid rgba(34, 187, 154, 0.685);
@@ -268,7 +289,7 @@ input{
 textarea{
     width:60%;
     margin-top: 5px;
-    margin-left: 20px;
+    margin-left: 10%;
     background: rgba(0, 0, 0, .0);
     border: none;
     border: 2px solid rgba(34, 187, 154, 0.685);
@@ -292,7 +313,7 @@ textarea{
 .wart{
     color: black;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 10%;
 
 }
 
@@ -300,7 +321,7 @@ button{
     
     width: 100px;
     padding: 7px;
-margin-left: 20px;
+margin-left: 10%;
     background-color:  rgba(34, 187, 154, 0.685);
     color: white;
     font-size: 15;
