@@ -87,6 +87,7 @@ li a:hover{
         background-image: url("home.jpg");
         color: #ffffff;
         width: 100%;
+        height: 100hv;
         background-size:cover;
         background-position: center;
         background-attachment: fixed;
