@@ -13,7 +13,7 @@ body{
     background-image: url("home.jpg");
     color: #ffffff;
     background-size: cover;
-    background-position: center;
+
     background-attachment: fixed;
     padding: 10em 0;
     width: 100%;
@@ -88,7 +88,7 @@ li a:hover{
         color: #ffffff;
         width: 100%;
         background-size:cover;
-        background-position: center;
+       
         background-attachment: fixed;
         padding:  5em 0;
         
