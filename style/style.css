@@ -86,7 +86,7 @@ li a:hover{
     .tlo{
         background-image: url("home.jpg");
         color: #ffffff;
-        width: 100%;
+        width: 130%;
         background-size:cover;
        
         background-attachment: fixed;
