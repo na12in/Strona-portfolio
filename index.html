@@ -198,6 +198,13 @@ parallax()});
 function parallax(){
     var wScroll=$(window).scrollTop();
     $(".parallax--bg").css("background-position", "center "  +(-wScroll*0.5)+"px")
+
+
+
+    if($(window).width() < 760)
+{
+    $(".parallax--bg").css("background-position", "center "  +(-wScroll*0.3)+"px")
+}
 }
 
 
