@@ -109,7 +109,8 @@ li a:hover{
         color: #ffffff;
         width: 100%;
         background-size:cover;
-        background-position: center;
+        background-position-y: 20%;
+        background-position-x: 50%;
         background-attachment: fixed;
         padding:  4em 0;
         
