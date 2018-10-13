@@ -170,38 +170,39 @@ li a:hover{
 
 
     .container-about{
-        display: flex;
+       flex: 100%;
         flex-direction: column;
+        align-items: center;
+        justify-content: center
     }
     
     .photo{
         flex: 100%;
+       width: 100%;
+        
         
     }
     
     .me{
-        min-height: 80%;
-        min-width: 80%;
-        margin-left:20%;
-        margin-right: 20%;
+       max-width: 60%;
+       margin-right: 20%;
         
     }
     
     .aboutme{
         flex: 100%; 
+
     }
 
     .name{
-        text-transform: uppercase;
-        color:rgba(34, 187, 154, 0.685);
-        font-weight: bold;
-        margin-top: 10%;
-        margin-left:20%;
         margin-right: 20%;
+       
+        
+    
+       
     }
     .job{
         margin-top: 10px;
-        margin-left:20%;
         margin-right: 20%;
     }
 }
