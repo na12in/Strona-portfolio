@@ -153,23 +153,59 @@ li a:hover{
 
     input{
         min-width: 80%;
-    
         height: 30px;
-       
-        
-    
     }
     
     textarea{
         min-width:80%;
-        margin-top: 5px;
-        
-       
+        margin-top: 5px; 
     }
 
-    
+   
     
 }
+
+
+@media screen and (max-width:860px){
+
+
+    .container-about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .photo{
+        flex: 100%;
+        
+    }
+    
+    .me{
+        min-height: 80%;
+        min-width: 80%;
+        margin-left:20%;
+        margin-right: 20%;
+        
+    }
+    
+    .aboutme{
+        flex: 100%; 
+    }
+
+    .name{
+        text-transform: uppercase;
+        color:rgba(34, 187, 154, 0.685);
+        font-weight: bold;
+        margin-top: 10%;
+        margin-left:20%;
+        margin-right: 20%;
+    }
+    .job{
+        margin-top: 10px;
+        margin-left:20%;
+        margin-right: 20%;
+    }
+}
+
 
 h1{
     
@@ -228,6 +264,19 @@ h1{
     text-align: justify;
     
 }
+
+.name{
+    text-transform: uppercase;
+    color:rgba(34, 187, 154, 0.685);
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.job{
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
 .contactFont{
     font-size: 15px;
     line-height: 30px;
