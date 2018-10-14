@@ -11,6 +11,9 @@
         <meta name="viewport" content="width=device-width initial-scale=1.0">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         
+        
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
 </head>
 
 <body>
@@ -68,7 +71,7 @@
 
 
 
-    <div class="container">
+    <div class="container-galeria">
             <div class="box">
                  <div class="box-item large la" ><img src="style/img4.jpeg" class="img">
                    <div class="caption-l a">
@@ -172,6 +175,74 @@ $(document).ready(function() {
         });
 
 
+
+
+ScrollReveal().reveal('.textabout',{ duration: 2000 });
+ScrollReveal().reveal('.photo');
+
+      
+     var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.la', slideUp);
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null,
+    delay: 1000
+};
+
+ScrollReveal().reveal('.ma', slideUp );
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.mb', slideUp );
+
+
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.small', slideUp);
+
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.wide', slideUp);
+
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.lb', slideUp);
+
+var slideUp = {
+    distance: '150%',
+    origin: 'bottom',
+    opacity: null
+};
+
+ScrollReveal().reveal('.tall', slideUp);
+
+
+
+
+
+    
+
 lightbox.option({
     'resizeDuration': 200,
     'wrapAround': true,
@@ -191,6 +262,51 @@ window.onscroll=function(){
         nav.style.background="rgb(34, 187, 154)";
     }
 }
+
+
+/*$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+   // $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+      //  $().each( function(){
+            
+          /*  var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            var bb=$(this).offset().top;
+            
+            /* If the object is completely visible in the window, fade it it */
+           /* if( bottom_of_window > bottom_of_object ){ 
+                
+                $(this).animate({'opacity':'1'},800); 
+                    
+            }
+           
+        }); 
+    
+    });
+    
+});
+
+
+
+$(function(){
+    var doc = $(document),
+    fadeElem = $('.container-about');
+
+    doc.on('scroll', function(){
+        var currScrollPos = doc.scrollTop()
+        fadeElem.each(function(){
+            var $this=$(this),
+            elemOffsetTop= $this.offset().top;
+            if (currScrollPos>elemOffsetTop)$this.css('opacity', 1 -(currScrollPos-elemOffsetTop)/2000);
+        });
+    });
+}); 
+*/
+
+
 
 $(window).scroll(function(){
 parallax()});
@@ -213,6 +329,8 @@ $(document).ready(function(){
         $("ul").toggleClass("active");
     })
 })
+
+
 
 
 

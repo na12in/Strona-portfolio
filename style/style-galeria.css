@@ -8,11 +8,12 @@ body{
     background-color: white;
 }
 
-.container{
+.container-galeria{
     min-height: 100vh;
     padding: 5%;
     flex: 1 1 80%;
     z-index: -1;
+  
 }
 
 .box{
@@ -41,6 +42,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 a{
@@ -63,6 +65,7 @@ a{
     position: relative;
     grid-row: span 3;
     grid-column: span 2;
+   
 }
 .tall
 {
