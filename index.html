@@ -48,7 +48,7 @@
     
         <div class="photo">
             
-           <img class="me" src="style/me3.jpeg" >
+        <img class="me" src="style/me3.jpeg" >
            <p class="name">Anna Kowalska</p>
            <p class="job">Fotograf</p>
 
@@ -178,61 +178,70 @@ $(document).ready(function() {
 
 
 ScrollReveal().reveal('.textabout',{ duration: 2000 });
-ScrollReveal().reveal('.photo');
+ScrollReveal().reveal('.photo', { duration: 1000 });
+
+ScrollReveal().reveal('.text',{ duration: 2000 });
+ScrollReveal().reveal('.form', { duration: 2500 });
 
       
      var slideUp = {
-    distance: '150%',
+    distance: '80%',
     origin: 'bottom',
-    opacity: null
+    opacity: null,
+    duration: 800
 };
 
 ScrollReveal().reveal('.la', slideUp);
 var slideUp = {
-    distance: '150%',
+    distance: '80%',
     origin: 'bottom',
     opacity: null,
-    delay: 1000
+    duration: 1000,
 };
 
 ScrollReveal().reveal('.ma', slideUp );
 var slideUp = {
-    distance: '150%',
+    distance: '80%',
     origin: 'bottom',
-    opacity: null
+    opacity: null,
+    duration: 1200
 };
 
 ScrollReveal().reveal('.mb', slideUp );
 
 
 var slideUp = {
-    distance: '150%',
+    distance: '80%',
     origin: 'bottom',
-    opacity: null
+    opacity: null,
+    duration: 1400
 };
 
 ScrollReveal().reveal('.small', slideUp);
 
 var slideUp = {
-    distance: '150%',
+    distance: '40%',
     origin: 'bottom',
-    opacity: null
+    opacity: null,
+    duration: 1600
 };
 
 ScrollReveal().reveal('.wide', slideUp);
 
 var slideUp = {
-    distance: '150%',
+    distance: '40%',
     origin: 'bottom',
-    opacity: null
+    opacity: null,
+    duration: 1600
 };
 
 ScrollReveal().reveal('.lb', slideUp);
 
 var slideUp = {
-    distance: '150%',
+    distance: '40%',
     origin: 'bottom',
-    opacity: null
+    opacity: null,
+    duration: 1600
 };
 
 ScrollReveal().reveal('.tall', slideUp);
