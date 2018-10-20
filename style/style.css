@@ -122,7 +122,7 @@ li a:hover{
 
     nav
     {
-    margin-top: 38px;
+    margin-top: 37px;
     
     }
 
@@ -152,15 +152,24 @@ li a:hover{
 
       .text
       {    
-         flex: 100%;
-          float: none;
-          
+      
+      
+        
+        max-width: 90%;
       }
+
+      .contactFont{
+        
+        margin-right: 10%;
+       
+        
+      
+    }
       
       .form{
           
         width: 100%;
-          flex: 100%;
+        
           float: none;
       }
 
@@ -217,6 +226,9 @@ li a:hover{
         
         
     }
+
+
+   
     
 }
 
@@ -338,10 +350,17 @@ h1{
     font-size: 15px;
     line-height: 30px;
     text-align: left;
-    max-width: 80%;
-    margin-left: 15%;
-    margin-right:5%;
-  
+    
+}
+
+
+.text
+{
+    margin-bottom: 50px;
+    flex: 40%;
+    margin-left: 10%;
+    
+
 }
 
 #about{
@@ -381,7 +400,7 @@ h1{
 }
 
 #works{
-    
+     padding-top:3%;
       margin: 5%;
 }
 
@@ -396,12 +415,7 @@ h1{
     display: flex;
     
 }
-.text
-{
-    margin-bottom: 50px;
-    flex: 50%;
-    
-}
+
 
 .form{
     
